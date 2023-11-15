@@ -1,4 +1,5 @@
 ﻿using CSharpClass2;
+using CSharpClass2.Part3;
 
 // Part1ValueTypes.IntegralNumericTypes();
 // Part1ValueTypes.FloatingPointNumericTypes();
@@ -7,5 +8,9 @@
 // Part1ValueTypes.StructureTypes();
 // Part1ValueTypes.TupleTypes();
 
-Part1ClassTypes.OpenNewAccount();
+// Part1ClassTypes.OpenNewAccount();
+// Part1ClassTypes.OpenGiftCardAccount();
+// Part1ClassTypes.OpenLineOfCreditAccount();
+
+Part3Inheritance.OpenLineOfCreditAccount();
 
