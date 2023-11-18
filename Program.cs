@@ -1,5 +1,6 @@
 ﻿using CSharpClass2;
 using CSharpClass2.Part3;
+using CSharpClass2.Part4;
 
 // Part1ValueTypes.IntegralNumericTypes();
 // Part1ValueTypes.FloatingPointNumericTypes();
@@ -12,5 +13,9 @@ using CSharpClass2.Part3;
 // Part1ClassTypes.OpenGiftCardAccount();
 // Part1ClassTypes.OpenLineOfCreditAccount();
 
-Part3Inheritance.OpenLineOfCreditAccount();
+// Part3Inheritance.OpenLineOfCreditAccount();
+
+// DelegateTypes.ShowDelegates();
+// Fibinocci.Exercise();
+Fibinocci.Exercise2();
 
