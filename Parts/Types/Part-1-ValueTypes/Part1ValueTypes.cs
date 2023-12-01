@@ -144,7 +144,7 @@ namespace CSharpClass2
             // Tuple with elements 4.5 and 3.
 
             (double Sum, int Count) t2 = (4.5, 3);
-            Console.WriteLine($"Sum of {t2.Count} elements is {t2.Sum}.");
+            Console.WriteLine($"Sum of {t2.Sum} elements is {t2.Sum}.");
             // Output:
             // Sum of 3 elements is 4.5.
         }

@@ -1,6 +1,9 @@
 ﻿using CSharpClass2;
 using CSharpClass2.Part3;
 using CSharpClass2.Part4;
+using CSharpClass2.Part6;
+using CSharpClass2.Part7;
+using CSharpClass2.Practice;
 
 // Part1ValueTypes.IntegralNumericTypes();
 // Part1ValueTypes.FloatingPointNumericTypes();
@@ -17,5 +20,10 @@ using CSharpClass2.Part4;
 
 // DelegateTypes.ShowDelegates();
 // Fibinocci.Exercise();
-Fibinocci.Exercise2();
+// Fibinocci.Exercise2();
+
+// OopsSample.Sample();
+
+// Sample.Practice();
+ExceptionTest.Main();
 
