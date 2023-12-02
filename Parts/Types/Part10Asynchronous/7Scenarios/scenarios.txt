@@ -1,0 +1,36 @@
+Asynchronous programming scenarios
+
+I/O Bound tasks - Download data from Web
+s_downloadButton.Clicked += async (o, e) =>
+{
+    // This line will yield control to the UI as the request
+    // from the web service is happening.
+    //
+    // The UI thread is now free to perform other work.
+    var stringData = await s_httpClient.GetStringAsync(URL);
+    DoSomethingWithData(stringData);
+};
+
+
+
+CPU bound -  Perform a calculation for a game
+static DamageResult CalculateDamageDone()
+{
+    return new DamageResult()
+    {
+        // Code omitted:
+        //
+        // Does an expensive calculation and returns
+        // the result of that calculation.
+    };
+}
+
+s_calculateButton.Clicked += async (o, e) =>
+{
+    // This line will yield control to the UI while CalculateDamageDone()
+    // performs its work. The UI thread is free to perform other work.
+    var damageResult = await Task.Run(() => CalculateDamageDone());
+    DisplayDamage(damageResult);
+};
+
+
